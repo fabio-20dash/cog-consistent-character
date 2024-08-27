@@ -45,7 +45,7 @@ class Predictor(BasePredictor):
         # Download pose images
         self.comfyUI.weights_downloader.download(
             "pose_images.tar",
-            "https://weights.replicate.delivery/default/fofr/character/pose_images.tar",
+            "https://trident-rockinrio.s3.amazonaws.com/replicate/pose_images.tar",
             f"{INPUT_DIR}/poses",
         )
 
